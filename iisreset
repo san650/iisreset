@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+echo ""
+echo "Attempting stop..."
+sleep 3
+echo "Internet services successfully stopped"
+echo "Attempting start..."
+sleep 3
+echo "Internet services successfully restarted"
+echo ""
+
+export PS1="C:\\> "
+bash
